@@ -1,0 +1,9 @@
+*
+!.gitignore
+!*/
+!*.c
+!*.h
+!*.hex
+!makefile
+!*.txt
+!*.md
