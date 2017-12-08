@@ -13,7 +13,7 @@ Supported SKU :
 
 Summary
 -------
-STEMTera Breadboard is an innovation in breadboard history. It is the first breadboard with an Arduino compatible built-in that works with thousands of shields. With ATmega16U2/32U2 exposed, native USB projects can be easily developed using the LUFA framework. The LEGO® compatible bottom cover empowers projects to be built beyond imagination. 
+STEMTera Breadboard is an innovation in breadboard history. It is the first breadboard with an Arduino compatible built-in that works with thousands of shields. With ATmega16U2/32U2 exposed, native USB projects can be easily developed using the LUFA framework. The LEGOÂ® compatible bottom cover empowers projects to be built beyond imagination. 
 
 Prerequisite
 ------------
@@ -37,9 +37,4 @@ Projects demo using the ATmega16U2/ATmega32U2 micro controller. The demos are ba
 
 Putting STEMTera Breaboard B328 into DFU Mode and Flashing Keyboard Demo
 ------------------------------------------------------------------------
-1. Insert a [Mini Push Button Switch](https://www.sparkfun.com/products/97) into RST2 and GND of the STEMTera Breadboard.
-2. Insert [Micro USB Cable](https://www.sparkfun.com/products/10215) into the computer and the other end of the micro usb connector to the STEMTera Breadboard. The GREEN LED on the STEMTera Breadboard should light up and the STEMTera Breadboard will be detected as Arduino UNO COM Port.
-3. Press and HOLD the Mini Push Button until you hear a USB detached sound from the computer (**NOTE: Hold as firmly as possible because Windows OS is very sensitive to USB attach and detach really quickly.**). Release the Mini Push Button and an ATMEL USB Devices -> ATmega32U2 will appear in the Device Manager.
-4. Change directory to **/Demo/Device/ClassDriver/Keyboard** and type `make clean` then `make dfu-launch`
-5. The keyboard demo program will be flashed into the ATmega16U2/ATmega32U2 and auto launch.
-6. To test another demo, repeat steps 3-5. At step 4, change to the desired project folder. At the moment, only Keyboard, MIDI and Joystick have been tested and will work with STEMTera Breadboard.
+Detailed instructions here [http://learn.stemtera.com/en/setup/lufa](http://learn.stemtera.com/en/setup/lufa)
